@@ -11,11 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/PEG.json"
     },
     {
@@ -51,6 +46,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_humidity_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
@@ -76,7 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "item",
@@ -136,7 +136,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2025-04-28T00:00:00Z"
+          "2025-04-29T00:00:00Z"
         ]
       ]
     }
