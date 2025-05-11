@@ -9,17 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-80.5248, 37.3783],
-      [-100.9154, 46.7697],
-      [-119.2622, 37.0334],
-      [-83.5019, 35.689],
-      [-119.006, 37.0058],
-      [-121.9519, 45.8205],
-      [-88.1612, 31.8539],
-      [-122.3303, 45.7624],
-      [-84.2826, 35.9641],
-      [-105.5824, 40.0543],
-      [-89.5857, 45.4937],
       [-119.7323, 37.1088],
       [-78.0418, 39.0337],
       [-81.4362, 28.1251],
@@ -55,12 +44,23 @@
       [-96.6129, 39.1104],
       [-71.2874, 44.0639],
       [-84.4686, 31.1948],
-      [-105.546, 40.2759]
+      [-105.546, 40.2759],
+      [-80.5248, 37.3783],
+      [-100.9154, 46.7697],
+      [-119.2622, 37.0334],
+      [-83.5019, 35.689],
+      [-119.006, 37.0058],
+      [-121.9519, 45.8205],
+      [-88.1612, 31.8539],
+      [-122.3303, 45.7624],
+      [-84.2826, 35.9641],
+      [-105.5824, 40.0543],
+      [-89.5857, 45.4937]
     ]
   },
   "properties": {
     "title": "persistenceRW",
-    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: MLBS, NOGP, SOAP, GRSM, TEAK, WREF, LENO, ABBY, ORNL, NIWO, TREE, SJER, BLAN, DSNY, GUAN, HARV, WOOD, MOAB, SERC, LAJA, PUUM, KONZ, OAES, YELL, BONA, DEJU, SCBI, STEI, STER, UKFS, JORN, CLBJ, DCFS, SRER, TOOL, CPER, DELA, HEAL, ONAQ, OSBS, TALL, UNDE, BARR, KONA, BART, JERC, RMNP.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: SJER, BLAN, DSNY, GUAN, HARV, WOOD, MOAB, SERC, LAJA, PUUM, KONZ, OAES, YELL, BONA, DEJU, SCBI, STEI, STER, UKFS, JORN, CLBJ, DCFS, SRER, TOOL, CPER, DELA, HEAL, ONAQ, OSBS, TALL, UNDE, BARR, KONA, BART, JERC, RMNP, MLBS, NOGP, SOAP, GRSM, TEAK, WREF, LENO, ABBY, ORNL, NIWO, TREE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-04-14",
     "updated": "2025-04-14 22:04:59",
     "start_datetime": "2023-11-15T00:00:00Z",
@@ -93,17 +93,6 @@
       "nee",
       "Daily",
       "P1D",
-      "MLBS",
-      "NOGP",
-      "SOAP",
-      "GRSM",
-      "TEAK",
-      "WREF",
-      "LENO",
-      "ABBY",
-      "ORNL",
-      "NIWO",
-      "TREE",
       "SJER",
       "BLAN",
       "DSNY",
@@ -139,7 +128,18 @@
       "KONA",
       "BART",
       "JERC",
-      "RMNP"
+      "RMNP",
+      "MLBS",
+      "NOGP",
+      "SOAP",
+      "GRSM",
+      "TEAK",
+      "WREF",
+      "LENO",
+      "ABBY",
+      "ORNL",
+      "NIWO",
+      "TREE"
     ],
     "table:columns": [
       {
@@ -256,7 +256,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "MLBS, NOGP, SOAP, GRSM, TEAK, WREF, LENO, ABBY, ORNL, NIWO, TREE, SJER, BLAN, DSNY, GUAN, HARV, WOOD, MOAB, SERC, LAJA, PUUM, KONZ, OAES, YELL, BONA, DEJU, SCBI, STEI, STER, UKFS, JORN, CLBJ, DCFS, SRER, TOOL, CPER, DELA, HEAL, ONAQ, OSBS, TALL, UNDE, BARR, KONA, BART, JERC, RMNP"
+      "description": "SJER, BLAN, DSNY, GUAN, HARV, WOOD, MOAB, SERC, LAJA, PUUM, KONZ, OAES, YELL, BONA, DEJU, SCBI, STEI, STER, UKFS, JORN, CLBJ, DCFS, SRER, TOOL, CPER, DELA, HEAL, ONAQ, OSBS, TALL, UNDE, BARR, KONA, BART, JERC, RMNP, MLBS, NOGP, SOAP, GRSM, TEAK, WREF, LENO, ABBY, ORNL, NIWO, TREE"
     },
     "4": {
       "type": "application/x-parquet",
