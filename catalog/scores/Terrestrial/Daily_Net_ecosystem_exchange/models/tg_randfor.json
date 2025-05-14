@@ -9,17 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-100.9154, 46.7697],
-      [-80.5248, 37.3783],
-      [-119.006, 37.0058],
-      [-105.5824, 40.0543],
-      [-122.3303, 45.7624],
-      [-89.5857, 45.4937],
-      [-84.2826, 35.9641],
-      [-121.9519, 45.8205],
-      [-88.1612, 31.8539],
-      [-83.5019, 35.689],
-      [-119.2622, 37.0334],
       [-103.0293, 40.4619],
       [-106.8425, 32.5907],
       [-145.7514, 63.8811],
@@ -55,12 +44,23 @@
       [-87.3933, 32.9505],
       [-84.4686, 31.1948],
       [-104.7456, 40.8155],
-      [-105.546, 40.2759]
+      [-105.546, 40.2759],
+      [-100.9154, 46.7697],
+      [-80.5248, 37.3783],
+      [-119.006, 37.0058],
+      [-105.5824, 40.0543],
+      [-122.3303, 45.7624],
+      [-89.5857, 45.4937],
+      [-84.2826, 35.9641],
+      [-121.9519, 45.8205],
+      [-88.1612, 31.8539],
+      [-83.5019, 35.689],
+      [-119.2622, 37.0334]
     ]
   },
   "properties": {
     "title": "tg_randfor",
-    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: NOGP, MLBS, TEAK, NIWO, ABBY, TREE, ORNL, WREF, LENO, GRSM, SOAP, STER, JORN, DEJU, CLBJ, YELL, KONZ, BONA, UKFS, DCFS, SCBI, OAES, STEI, LAJA, GUAN, SERC, MOAB, PUUM, BLAN, DSNY, SJER, HARV, WOOD, KONA, SRER, TOOL, UNDE, BART, OSBS, ONAQ, BARR, HEAL, DELA, TALL, JERC, CPER, RMNP.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: STER, JORN, DEJU, CLBJ, YELL, KONZ, BONA, UKFS, DCFS, SCBI, OAES, STEI, LAJA, GUAN, SERC, MOAB, PUUM, BLAN, DSNY, SJER, HARV, WOOD, KONA, SRER, TOOL, UNDE, BART, OSBS, ONAQ, BARR, HEAL, DELA, TALL, JERC, CPER, RMNP, NOGP, MLBS, TEAK, NIWO, ABBY, TREE, ORNL, WREF, LENO, GRSM, SOAP.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-08-16",
     "updated": "2024-08-29 18:03:27",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -93,17 +93,6 @@
       "nee",
       "Daily",
       "P1D",
-      "NOGP",
-      "MLBS",
-      "TEAK",
-      "NIWO",
-      "ABBY",
-      "TREE",
-      "ORNL",
-      "WREF",
-      "LENO",
-      "GRSM",
-      "SOAP",
       "STER",
       "JORN",
       "DEJU",
@@ -139,7 +128,18 @@
       "TALL",
       "JERC",
       "CPER",
-      "RMNP"
+      "RMNP",
+      "NOGP",
+      "MLBS",
+      "TEAK",
+      "NIWO",
+      "ABBY",
+      "TREE",
+      "ORNL",
+      "WREF",
+      "LENO",
+      "GRSM",
+      "SOAP"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "NOGP, MLBS, TEAK, NIWO, ABBY, TREE, ORNL, WREF, LENO, GRSM, SOAP, STER, JORN, DEJU, CLBJ, YELL, KONZ, BONA, UKFS, DCFS, SCBI, OAES, STEI, LAJA, GUAN, SERC, MOAB, PUUM, BLAN, DSNY, SJER, HARV, WOOD, KONA, SRER, TOOL, UNDE, BART, OSBS, ONAQ, BARR, HEAL, DELA, TALL, JERC, CPER, RMNP"
+      "description": "STER, JORN, DEJU, CLBJ, YELL, KONZ, BONA, UKFS, DCFS, SCBI, OAES, STEI, LAJA, GUAN, SERC, MOAB, PUUM, BLAN, DSNY, SJER, HARV, WOOD, KONA, SRER, TOOL, UNDE, BART, OSBS, ONAQ, BARR, HEAL, DELA, TALL, JERC, CPER, RMNP, NOGP, MLBS, TEAK, NIWO, ABBY, TREE, ORNL, WREF, LENO, GRSM, SOAP"
     },
     "4": {
       "type": "application/x-parquet",
