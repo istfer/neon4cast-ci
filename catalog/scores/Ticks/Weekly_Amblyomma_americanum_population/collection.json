@@ -36,26 +36,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_Dem.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NJC_ETS_PF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCLA_2022.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/TickBench.json"
     },
     {
@@ -97,6 +77,26 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BU_Dem.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/NJC_ETS_PF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCLA_2022.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "parent",
