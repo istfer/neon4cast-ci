@@ -19,6 +19,14 @@
       [-155.3173, 19.5531],
       [-109.3883, 38.2483],
       [-105.5824, 40.0543],
+      [-89.5864, 45.5089],
+      [-119.7323, 37.1088],
+      [-71.2874, 44.0639],
+      [-105.546, 40.2759],
+      [-87.3933, 32.9505],
+      [-106.8425, 32.5907],
+      [-76.56, 38.8901],
+      [-89.5857, 45.4937],
       [-100.9154, 46.7697],
       [-84.2826, 35.9641],
       [-95.1921, 39.0404],
@@ -47,20 +55,12 @@
       [-84.4686, 31.1948],
       [-119.2622, 37.0334],
       [-99.0588, 35.4106],
-      [-104.7456, 40.8155],
-      [-89.5864, 45.5089],
-      [-119.7323, 37.1088],
-      [-71.2874, 44.0639],
-      [-105.546, 40.2759],
-      [-87.3933, 32.9505],
-      [-106.8425, 32.5907],
-      [-76.56, 38.8901],
-      [-89.5857, 45.4937]
+      [-104.7456, 40.8155]
     ]
   },
   "properties": {
     "title": "climatology",
-    "description": "All scores for the Daily_latent_heat_flux variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: ABBY, LAJA, GRSM, KONZ, DELA, LENO, MLBS, PUUM, MOAB, NIWO, NOGP, ORNL, UKFS, HEAL, WREF, GUAN, WOOD, TEAK, TOOL, BARR, BONA, DCFS, UNDE, YELL, OSBS, CLBJ, KONA, HARV, DSNY, DEJU, STER, ONAQ, SRER, SCBI, BLAN, JERC, SOAP, OAES, CPER, STEI, SJER, BART, RMNP, TALL, JORN, SERC, TREE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_latent_heat_flux variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: ABBY, LAJA, GRSM, KONZ, DELA, LENO, MLBS, PUUM, MOAB, NIWO, STEI, SJER, BART, RMNP, TALL, JORN, SERC, TREE, NOGP, ORNL, UKFS, HEAL, WREF, GUAN, WOOD, TEAK, TOOL, BARR, BONA, DCFS, UNDE, YELL, OSBS, CLBJ, KONA, HARV, DSNY, DEJU, STER, ONAQ, SRER, SCBI, BLAN, JERC, SOAP, OAES, CPER.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-04-14",
     "updated": "2025-04-14 20:19:30",
     "start_datetime": "2023-11-15T00:00:00Z",
@@ -103,6 +103,14 @@
       "PUUM",
       "MOAB",
       "NIWO",
+      "STEI",
+      "SJER",
+      "BART",
+      "RMNP",
+      "TALL",
+      "JORN",
+      "SERC",
+      "TREE",
       "NOGP",
       "ORNL",
       "UKFS",
@@ -131,15 +139,7 @@
       "JERC",
       "SOAP",
       "OAES",
-      "CPER",
-      "STEI",
-      "SJER",
-      "BART",
-      "RMNP",
-      "TALL",
-      "JORN",
-      "SERC",
-      "TREE"
+      "CPER"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ABBY, LAJA, GRSM, KONZ, DELA, LENO, MLBS, PUUM, MOAB, NIWO, NOGP, ORNL, UKFS, HEAL, WREF, GUAN, WOOD, TEAK, TOOL, BARR, BONA, DCFS, UNDE, YELL, OSBS, CLBJ, KONA, HARV, DSNY, DEJU, STER, ONAQ, SRER, SCBI, BLAN, JERC, SOAP, OAES, CPER, STEI, SJER, BART, RMNP, TALL, JORN, SERC, TREE"
+      "description": "ABBY, LAJA, GRSM, KONZ, DELA, LENO, MLBS, PUUM, MOAB, NIWO, STEI, SJER, BART, RMNP, TALL, JORN, SERC, TREE, NOGP, ORNL, UKFS, HEAL, WREF, GUAN, WOOD, TEAK, TOOL, BARR, BONA, DCFS, UNDE, YELL, OSBS, CLBJ, KONA, HARV, DSNY, DEJU, STER, ONAQ, SRER, SCBI, BLAN, JERC, SOAP, OAES, CPER"
     },
     "4": {
       "type": "application/x-parquet",

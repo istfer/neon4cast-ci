@@ -19,14 +19,6 @@
       [-67.0769, 18.0213],
       [-87.8039, 32.5417],
       [-155.3173, 19.5531],
-      [-89.5864, 45.5089],
-      [-106.8425, 32.5907],
-      [-76.56, 38.8901],
-      [-105.546, 40.2759],
-      [-89.5857, 45.4937],
-      [-119.7323, 37.1088],
-      [-87.3933, 32.9505],
-      [-71.2874, 44.0639],
       [-145.7514, 63.8811],
       [-110.5391, 44.9535],
       [-97.57, 33.4012],
@@ -55,12 +47,20 @@
       [-103.0293, 40.4619],
       [-119.2622, 37.0334],
       [-104.7456, 40.8155],
-      [-110.8355, 31.9107]
+      [-110.8355, 31.9107],
+      [-89.5864, 45.5089],
+      [-106.8425, 32.5907],
+      [-76.56, 38.8901],
+      [-105.546, 40.2759],
+      [-89.5857, 45.4937],
+      [-119.7323, 37.1088],
+      [-87.3933, 32.9505],
+      [-71.2874, 44.0639]
     ]
   },
   "properties": {
     "title": "tg_lasso",
-    "description": "All scores for the Daily_Green_chromatic_coordinate variable for the tg_lasso model. Information for the model is provided as follows: Lasso is a machine learning model implemented in the same workflow as tg_randfor, but with\ndifferent hyperparameter tuning. The model drivers are unlagged air temperature, air pressure, relative\nhumidity, surface downwelling longwave and shortwave radiation, precipitation, and northward and\neastward wind. Lasso regressions were fitted with the function glmnet() in\nthe package glmnet (Tay et al. 2023), where the regularization hyperparameter (lambda) is tuned and\nselected with 10-fold cross validation..\n                                    The model predicts this variable at the following sites: ABBY, KONZ, MOAB, NIWO, LENO, MLBS, GRSM, LAJA, DELA, PUUM, STEI, JORN, SERC, RMNP, TREE, SJER, TALL, BART, DEJU, YELL, CLBJ, ORNL, OSBS, BARR, KONA, WOOD, TOOL, TEAK, DCFS, WREF, DSNY, BONA, GUAN, HEAL, UKFS, UNDE, NOGP, HARV, ONAQ, OAES, BLAN, SCBI, JERC, STER, SOAP, CPER, SRER.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Green_chromatic_coordinate variable for the tg_lasso model. Information for the model is provided as follows: Lasso is a machine learning model implemented in the same workflow as tg_randfor, but with\ndifferent hyperparameter tuning. The model drivers are unlagged air temperature, air pressure, relative\nhumidity, surface downwelling longwave and shortwave radiation, precipitation, and northward and\neastward wind. Lasso regressions were fitted with the function glmnet() in\nthe package glmnet (Tay et al. 2023), where the regularization hyperparameter (lambda) is tuned and\nselected with 10-fold cross validation..\n                                    The model predicts this variable at the following sites: ABBY, KONZ, MOAB, NIWO, LENO, MLBS, GRSM, LAJA, DELA, PUUM, DEJU, YELL, CLBJ, ORNL, OSBS, BARR, KONA, WOOD, TOOL, TEAK, DCFS, WREF, DSNY, BONA, GUAN, HEAL, UKFS, UNDE, NOGP, HARV, ONAQ, OAES, BLAN, SCBI, JERC, STER, SOAP, CPER, SRER, STEI, JORN, SERC, RMNP, TREE, SJER, TALL, BART.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-01-31",
     "updated": "2024-07-03 07:16:42",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -103,14 +103,6 @@
       "LAJA",
       "DELA",
       "PUUM",
-      "STEI",
-      "JORN",
-      "SERC",
-      "RMNP",
-      "TREE",
-      "SJER",
-      "TALL",
-      "BART",
       "DEJU",
       "YELL",
       "CLBJ",
@@ -139,7 +131,15 @@
       "STER",
       "SOAP",
       "CPER",
-      "SRER"
+      "SRER",
+      "STEI",
+      "JORN",
+      "SERC",
+      "RMNP",
+      "TREE",
+      "SJER",
+      "TALL",
+      "BART"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ABBY, KONZ, MOAB, NIWO, LENO, MLBS, GRSM, LAJA, DELA, PUUM, STEI, JORN, SERC, RMNP, TREE, SJER, TALL, BART, DEJU, YELL, CLBJ, ORNL, OSBS, BARR, KONA, WOOD, TOOL, TEAK, DCFS, WREF, DSNY, BONA, GUAN, HEAL, UKFS, UNDE, NOGP, HARV, ONAQ, OAES, BLAN, SCBI, JERC, STER, SOAP, CPER, SRER"
+      "description": "ABBY, KONZ, MOAB, NIWO, LENO, MLBS, GRSM, LAJA, DELA, PUUM, DEJU, YELL, CLBJ, ORNL, OSBS, BARR, KONA, WOOD, TOOL, TEAK, DCFS, WREF, DSNY, BONA, GUAN, HEAL, UKFS, UNDE, NOGP, HARV, ONAQ, OAES, BLAN, SCBI, JERC, STER, SOAP, CPER, SRER, STEI, JORN, SERC, RMNP, TREE, SJER, TALL, BART"
     },
     "4": {
       "type": "application/x-parquet",
