@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
       [-84.2793, 35.9574],
       [-110.5871, 44.9501],
       [-87.4077, 32.9604],
@@ -21,6 +17,10 @@
       [-122.1655, 44.2596],
       [-102.4471, 39.7582],
       [-83.5038, 35.6904],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
       [-82.0084, 29.676],
       [-97.7823, 33.3785],
       [-89.4737, 46.2097],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: PRPO, TOOK, LEWI, BLUE, WALK, BLDE, MAYF, FLNT, BIGC, MCRA, ARIK, LECO, BARC, PRIN, CRAM, OKSR, SUGG, CUPE, MART, HOPB, KING, POSE, MCDI, WLOU, REDB, GUIL, LIRO, PRLA, TECR, CARI, BLWA, COMO, TOMB, SYCA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: WALK, BLDE, MAYF, FLNT, BIGC, MCRA, ARIK, LECO, PRPO, TOOK, LEWI, BLUE, BARC, PRIN, CRAM, OKSR, SUGG, CUPE, MART, HOPB, KING, POSE, MCDI, WLOU, REDB, GUIL, LIRO, PRLA, TECR, CARI, BLWA, COMO, TOMB, SYCA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-07-19",
     "updated": "2024-08-23 08:34:07",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "PRPO",
-      "TOOK",
-      "LEWI",
-      "BLUE",
       "WALK",
       "BLDE",
       "MAYF",
@@ -92,6 +88,10 @@
       "MCRA",
       "ARIK",
       "LECO",
+      "PRPO",
+      "TOOK",
+      "LEWI",
+      "BLUE",
       "BARC",
       "PRIN",
       "CRAM",
@@ -230,7 +230,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "PRPO, TOOK, LEWI, BLUE, WALK, BLDE, MAYF, FLNT, BIGC, MCRA, ARIK, LECO, BARC, PRIN, CRAM, OKSR, SUGG, CUPE, MART, HOPB, KING, POSE, MCDI, WLOU, REDB, GUIL, LIRO, PRLA, TECR, CARI, BLWA, COMO, TOMB, SYCA"
+      "description": "WALK, BLDE, MAYF, FLNT, BIGC, MCRA, ARIK, LECO, PRPO, TOOK, LEWI, BLUE, BARC, PRIN, CRAM, OKSR, SUGG, CUPE, MART, HOPB, KING, POSE, MCDI, WLOU, REDB, GUIL, LIRO, PRLA, TECR, CARI, BLWA, COMO, TOMB, SYCA"
     },
     "4": {
       "type": "application/x-parquet",
