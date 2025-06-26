@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
       [-96.6038, 39.1051],
       [-97.7823, 33.3785],
       [-89.4737, 46.2097],
@@ -38,16 +42,12 @@
       [-105.5442, 40.035],
       [-87.7982, 32.5415],
       [-89.7048, 45.9983],
-      [-88.1589, 31.8534],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442]
+      [-88.1589, 31.8534]
     ]
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: KING, PRIN, CRAM, POSE, REDB, OKSR, WLOU, BARC, MART, HOPB, CUPE, MCDI, SUGG, MAYF, WALK, MCRA, BLDE, LECO, BIGC, ARIK, FLNT, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, LIRO, TOMB, LEWI, PRPO, TOOK, BLUE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: LEWI, PRPO, TOOK, BLUE, KING, PRIN, CRAM, POSE, REDB, OKSR, WLOU, BARC, MART, HOPB, CUPE, MCDI, SUGG, MAYF, WALK, MCRA, BLDE, LECO, BIGC, ARIK, FLNT, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, LIRO, TOMB.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-03",
     "updated": "2024-07-02 11:37:20",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,6 +80,10 @@
       "oxygen",
       "Daily",
       "P1D",
+      "LEWI",
+      "PRPO",
+      "TOOK",
+      "BLUE",
       "KING",
       "PRIN",
       "CRAM",
@@ -109,11 +113,7 @@
       "COMO",
       "BLWA",
       "LIRO",
-      "TOMB",
-      "LEWI",
-      "PRPO",
-      "TOOK",
-      "BLUE"
+      "TOMB"
     ],
     "table:columns": [
       {
@@ -230,7 +230,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "KING, PRIN, CRAM, POSE, REDB, OKSR, WLOU, BARC, MART, HOPB, CUPE, MCDI, SUGG, MAYF, WALK, MCRA, BLDE, LECO, BIGC, ARIK, FLNT, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, LIRO, TOMB, LEWI, PRPO, TOOK, BLUE"
+      "description": "LEWI, PRPO, TOOK, BLUE, KING, PRIN, CRAM, POSE, REDB, OKSR, WLOU, BARC, MART, HOPB, CUPE, MCDI, SUGG, MAYF, WALK, MCRA, BLDE, LECO, BIGC, ARIK, FLNT, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, LIRO, TOMB"
     },
     "4": {
       "type": "application/x-parquet",
