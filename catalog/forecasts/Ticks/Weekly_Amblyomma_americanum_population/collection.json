@@ -16,6 +16,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/VTicks.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -42,11 +47,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/Ticks_288.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VTicks.json"
     },
     {
       "rel": "item",
