@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
       [-82.0177, 29.6878],
       [-89.4737, 46.2097],
       [-66.9868, 18.1135],
@@ -30,10 +34,6 @@
       [-102.4471, 39.7582],
       [-84.2793, 35.9574],
       [-83.5038, 35.6904],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
       [-147.504, 65.1532],
       [-111.5081, 33.751],
       [-99.1139, 47.1591],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_arima",
-    "description": "All scores for the Daily_Water_temperature variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: SUGG, CRAM, CUPE, WLOU, MART, OKSR, KING, POSE, HOPB, BARC, MCDI, REDB, PRIN, FLNT, MCRA, MAYF, BLDE, BIGC, ARIK, WALK, LECO, PRPO, TOOK, BLUE, LEWI, CARI, SYCA, PRLA, BLWA, COMO, LIRO, GUIL, TOMB, TECR.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: PRPO, TOOK, BLUE, LEWI, SUGG, CRAM, CUPE, WLOU, MART, OKSR, KING, POSE, HOPB, BARC, MCDI, REDB, PRIN, FLNT, MCRA, MAYF, BLDE, BIGC, ARIK, WALK, LECO, CARI, SYCA, PRLA, BLWA, COMO, LIRO, GUIL, TOMB, TECR.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-07-19",
     "updated": "2024-08-23 08:31:31",
     "start_datetime": "2021-12-18T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "PRPO",
+      "TOOK",
+      "BLUE",
+      "LEWI",
       "SUGG",
       "CRAM",
       "CUPE",
@@ -101,10 +105,6 @@
       "ARIK",
       "WALK",
       "LECO",
-      "PRPO",
-      "TOOK",
-      "BLUE",
-      "LEWI",
       "CARI",
       "SYCA",
       "PRLA",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SUGG, CRAM, CUPE, WLOU, MART, OKSR, KING, POSE, HOPB, BARC, MCDI, REDB, PRIN, FLNT, MCRA, MAYF, BLDE, BIGC, ARIK, WALK, LECO, PRPO, TOOK, BLUE, LEWI, CARI, SYCA, PRLA, BLWA, COMO, LIRO, GUIL, TOMB, TECR"
+      "description": "PRPO, TOOK, BLUE, LEWI, SUGG, CRAM, CUPE, WLOU, MART, OKSR, KING, POSE, HOPB, BARC, MCDI, REDB, PRIN, FLNT, MCRA, MAYF, BLDE, BIGC, ARIK, WALK, LECO, CARI, SYCA, PRLA, BLWA, COMO, LIRO, GUIL, TOMB, TECR"
     },
     "4": {
       "type": "application/x-parquet",
