@@ -17,15 +17,6 @@
       [-76.56, 38.8901],
       [-119.7323, 37.1088],
       [-87.3933, 32.9505],
-      [-104.7456, 40.8155],
-      [-84.4686, 31.1948],
-      [-99.0588, 35.4106],
-      [-112.4524, 40.1776],
-      [-78.1395, 38.8929],
-      [-119.2622, 37.0334],
-      [-110.8355, 31.9107],
-      [-103.0293, 40.4619],
-      [-78.0418, 39.0337],
       [-87.8039, 32.5417],
       [-83.5019, 35.689],
       [-96.5631, 39.1008],
@@ -55,12 +46,21 @@
       [-72.1727, 42.5369],
       [-121.9519, 45.8205],
       [-66.8687, 17.9696],
-      [-99.1066, 47.1617]
+      [-99.1066, 47.1617],
+      [-104.7456, 40.8155],
+      [-84.4686, 31.1948],
+      [-99.0588, 35.4106],
+      [-112.4524, 40.1776],
+      [-78.1395, 38.8929],
+      [-119.2622, 37.0334],
+      [-110.8355, 31.9107],
+      [-103.0293, 40.4619],
+      [-78.0418, 39.0337]
     ]
   },
   "properties": {
     "title": "tg_temp_lm_all_sites",
-    "description": "All forecasts for the Daily_latent_heat_flux variable for the tg_temp_lm_all_sites model. Information for the model is provided as follows: The tg_temp_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation.This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: BART, JORN, RMNP, STEI, TREE, SERC, SJER, TALL, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN, DELA, GRSM, KONZ, LAJA, LENO, MLBS, ABBY, MOAB, NIWO, PUUM, BARR, BONA, CLBJ, DEJU, DSNY, HEAL, KONA, NOGP, ORNL, OSBS, WOOD, YELL, TEAK, TOOL, UKFS, UNDE, HARV, WREF, GUAN, DCFS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_latent_heat_flux variable for the tg_temp_lm_all_sites model. Information for the model is provided as follows: The tg_temp_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation.This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: BART, JORN, RMNP, STEI, TREE, SERC, SJER, TALL, DELA, GRSM, KONZ, LAJA, LENO, MLBS, ABBY, MOAB, NIWO, PUUM, BARR, BONA, CLBJ, DEJU, DSNY, HEAL, KONA, NOGP, ORNL, OSBS, WOOD, YELL, TEAK, TOOL, UKFS, UNDE, HARV, WREF, GUAN, DCFS, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-06-08",
     "updated": "2025-06-08 22:24:32",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -101,15 +101,6 @@
       "SERC",
       "SJER",
       "TALL",
-      "CPER",
-      "JERC",
-      "OAES",
-      "ONAQ",
-      "SCBI",
-      "SOAP",
-      "SRER",
-      "STER",
-      "BLAN",
       "DELA",
       "GRSM",
       "KONZ",
@@ -139,7 +130,16 @@
       "HARV",
       "WREF",
       "GUAN",
-      "DCFS"
+      "DCFS",
+      "CPER",
+      "JERC",
+      "OAES",
+      "ONAQ",
+      "SCBI",
+      "SOAP",
+      "SRER",
+      "STER",
+      "BLAN"
     ],
     "table:columns": [
       {
@@ -256,7 +256,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BART, JORN, RMNP, STEI, TREE, SERC, SJER, TALL, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN, DELA, GRSM, KONZ, LAJA, LENO, MLBS, ABBY, MOAB, NIWO, PUUM, BARR, BONA, CLBJ, DEJU, DSNY, HEAL, KONA, NOGP, ORNL, OSBS, WOOD, YELL, TEAK, TOOL, UKFS, UNDE, HARV, WREF, GUAN, DCFS"
+      "description": "BART, JORN, RMNP, STEI, TREE, SERC, SJER, TALL, DELA, GRSM, KONZ, LAJA, LENO, MLBS, ABBY, MOAB, NIWO, PUUM, BARR, BONA, CLBJ, DEJU, DSNY, HEAL, KONA, NOGP, ORNL, OSBS, WOOD, YELL, TEAK, TOOL, UKFS, UNDE, HARV, WREF, GUAN, DCFS, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN"
     },
     "4": {
       "type": "application/x-parquet",
