@@ -9,6 +9,9 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
       [-89.4737, 46.2097],
       [-96.6038, 39.1051],
       [-72.3295, 42.4719],
@@ -35,15 +38,12 @@
       [-88.1589, 31.8534],
       [-111.5081, 33.751],
       [-89.7048, 45.9983],
-      [-99.1139, 47.1591],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298]
+      [-99.1139, 47.1591]
     ]
   },
   "properties": {
     "title": "hotdeck",
-    "description": "All forecasts for the Daily_Water_temperature variable for the hotdeck model. Information for the model is provided as follows: Uses a hot deck approach: - Take the latest observation/forecast. - Past observations from around the same window of the season are collected. - Values close to the latest observation/forecast are collected. - One of these is randomly sampled. - Its \"tomorrow\" observation is used as the forecast. - Repeat until forecast at step h..\n                                    The model predicts this variable at the following sites: CRAM, KING, HOPB, POSE, CUPE, SUGG, PRIN, REDB, WLOU, BARC, BIGC, MAYF, BLDE, WALK, FLNT, MCRA, LECO, ARIK, GUIL, CARI, TECR, COMO, BLWA, TOMB, SYCA, LIRO, PRLA, LEWI, BLUE, PRPO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the hotdeck model. Information for the model is provided as follows: Uses a hot deck approach: - Take the latest observation/forecast. - Past observations from around the same window of the season are collected. - Values close to the latest observation/forecast are collected. - One of these is randomly sampled. - Its \"tomorrow\" observation is used as the forecast. - Repeat until forecast at step h..\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, CRAM, KING, HOPB, POSE, CUPE, SUGG, PRIN, REDB, WLOU, BARC, BIGC, MAYF, BLDE, WALK, FLNT, MCRA, LECO, ARIK, GUIL, CARI, TECR, COMO, BLWA, TOMB, SYCA, LIRO, PRLA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-01-27",
     "updated": "2025-01-27 18:04:13",
     "start_datetime": "2024-02-28T00:00:00Z",
@@ -76,6 +76,9 @@
       "temperature",
       "Daily",
       "P1D",
+      "LEWI",
+      "BLUE",
+      "PRPO",
       "CRAM",
       "KING",
       "HOPB",
@@ -102,10 +105,7 @@
       "TOMB",
       "SYCA",
       "LIRO",
-      "PRLA",
-      "LEWI",
-      "BLUE",
-      "PRPO"
+      "PRLA"
     ],
     "table:columns": [
       {
@@ -222,7 +222,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "CRAM, KING, HOPB, POSE, CUPE, SUGG, PRIN, REDB, WLOU, BARC, BIGC, MAYF, BLDE, WALK, FLNT, MCRA, LECO, ARIK, GUIL, CARI, TECR, COMO, BLWA, TOMB, SYCA, LIRO, PRLA, LEWI, BLUE, PRPO"
+      "description": "LEWI, BLUE, PRPO, CRAM, KING, HOPB, POSE, CUPE, SUGG, PRIN, REDB, WLOU, BARC, BIGC, MAYF, BLDE, WALK, FLNT, MCRA, LECO, ARIK, GUIL, CARI, TECR, COMO, BLWA, TOMB, SYCA, LIRO, PRLA"
     },
     "4": {
       "type": "application/x-parquet",
