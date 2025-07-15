@@ -9,14 +9,14 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-84.4374, 31.1854],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-82.0177, 29.6878],
       [-89.4737, 46.2097],
       [-82.0084, 29.676],
       [-78.1473, 38.8943],
       [-96.443, 38.9459],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
+      [-84.4374, 31.1854],
       [-88.1589, 31.8534],
       [-87.7982, 32.5415],
       [-105.5442, 40.035],
@@ -26,7 +26,7 @@
   },
   "properties": {
     "title": "climatology",
-    "description": "All forecasts for the Daily_Chlorophyll_a variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: FLNT, USGS-14211010, SUGG, CRAM, BARC, POSE, MCDI, USGS-05553700, USGS-14211720, PRPO, TOOK, USGS-01463500, USGS-05586300, USGS-01427510, USGS-05558300, TOMB, BLWA, COMO, LIRO, PRLA, USGS-05543010, USGS-14181500.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Chlorophyll_a variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: PRPO, TOOK, USGS-01463500, USGS-05586300, USGS-01427510, USGS-05558300, SUGG, CRAM, BARC, POSE, MCDI, USGS-05553700, USGS-14211720, FLNT, USGS-14211010, TOMB, BLWA, COMO, LIRO, PRLA, USGS-05543010, USGS-14181500.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-05-03",
     "updated": "2025-05-03 22:03:26",
     "start_datetime": "2022-01-01T00:00:00Z",
@@ -59,8 +59,12 @@
       "chla",
       "Daily",
       "P1D",
-      "FLNT",
-      "USGS-14211010",
+      "PRPO",
+      "TOOK",
+      "USGS-01463500",
+      "USGS-05586300",
+      "USGS-01427510",
+      "USGS-05558300",
       "SUGG",
       "CRAM",
       "BARC",
@@ -68,12 +72,8 @@
       "MCDI",
       "USGS-05553700",
       "USGS-14211720",
-      "PRPO",
-      "TOOK",
-      "USGS-01463500",
-      "USGS-05586300",
-      "USGS-01427510",
-      "USGS-05558300",
+      "FLNT",
+      "USGS-14211010",
       "TOMB",
       "BLWA",
       "COMO",
@@ -132,6 +132,11 @@
         "name": "project_id",
         "type": "string",
         "description": "unique identifier for the forecast project"
+      },
+      {
+        "name": "variable",
+        "type": "string",
+        "description": "name of forecasted variable"
       }
     ]
   },
@@ -197,7 +202,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "FLNT, USGS-14211010, SUGG, CRAM, BARC, POSE, MCDI, USGS-05553700, USGS-14211720, PRPO, TOOK, USGS-01463500, USGS-05586300, USGS-01427510, USGS-05558300, TOMB, BLWA, COMO, LIRO, PRLA, USGS-05543010, USGS-14181500"
+      "description": "PRPO, TOOK, USGS-01463500, USGS-05586300, USGS-01427510, USGS-05558300, SUGG, CRAM, BARC, POSE, MCDI, USGS-05553700, USGS-14211720, FLNT, USGS-14211010, TOMB, BLWA, COMO, LIRO, PRLA, USGS-05543010, USGS-14181500"
     },
     "4": {
       "type": "application/x-parquet",
