@@ -46,41 +46,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/AquaticEcosystemsOxygen.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/wbears_rnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/air2waterSat_2.json"
     },
     {
@@ -97,11 +62,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -126,17 +86,32 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_gp.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/xgboost_parallel.json"
     },
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/wbears_gp.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BBTW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
@@ -151,12 +126,37 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BBTW.json"
+      "href": "./models/AquaticEcosystemsOxygen.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
+      "href": "./models/LSAMP_AWPC.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/wbears_rnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "parent",
