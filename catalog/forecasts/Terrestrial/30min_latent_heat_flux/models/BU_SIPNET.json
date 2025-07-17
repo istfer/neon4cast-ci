@@ -105,11 +105,6 @@
         "name": "project_id",
         "type": "string",
         "description": "unique identifier for the forecast project"
-      },
-      {
-        "name": "variable",
-        "type": "string",
-        "description": "name of forecasted variable"
       }
     ]
   },

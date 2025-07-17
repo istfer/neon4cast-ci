@@ -16,12 +16,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/IU_Eco2021.json"
+      "href": "./models/UCB_XT.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/BU_SIPNET.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/IU_Eco2021.json"
     },
     {
       "rel": "item",
@@ -36,12 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_SIPNET.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCB_XT.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "parent",
@@ -141,11 +141,6 @@
       "name": "project_id",
       "type": "string",
       "description": "unique identifier for the forecast project"
-    },
-    {
-      "name": "variable",
-      "type": "string",
-      "description": "name of forecasted variable"
     }
   ],
   "assets": {

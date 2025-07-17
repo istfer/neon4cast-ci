@@ -39,14 +39,6 @@
       [-96.5631, 39.1008],
       [-109.3883, 38.2483],
       [-122.3303, 45.7624],
-      [-89.5857, 45.4937],
-      [-119.7323, 37.1088],
-      [-89.5864, 45.5089],
-      [-87.3933, 32.9505],
-      [-76.56, 38.8901],
-      [-105.546, 40.2759],
-      [-71.2874, 44.0639],
-      [-106.8425, 32.5907],
       [-110.8355, 31.9107],
       [-99.0588, 35.4106],
       [-104.7456, 40.8155],
@@ -55,12 +47,20 @@
       [-78.1395, 38.8929],
       [-119.2622, 37.0334],
       [-103.0293, 40.4619],
-      [-78.0418, 39.0337]
+      [-78.0418, 39.0337],
+      [-89.5857, 45.4937],
+      [-119.7323, 37.1088],
+      [-89.5864, 45.5089],
+      [-87.3933, 32.9505],
+      [-76.56, 38.8901],
+      [-105.546, 40.2759],
+      [-71.2874, 44.0639],
+      [-106.8425, 32.5907]
     ]
   },
   "properties": {
     "title": "tg_humidity_lm_all_sites",
-    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_humidity_lm_all_sites model. Information for the model is provided as follows: The tg_humidity_lm_all_sites model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only one covariate: relative humidity. This model was used to forecast water temperature and dissolved oxygen concentration at the\nseven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: DEJU, HEAL, CLBJ, GUAN, BONA, YELL, KONA, UKFS, TEAK, ORNL, HARV, DCFS, BARR, WOOD, NOGP, TOOL, DSNY, WREF, OSBS, UNDE, LENO, MLBS, LAJA, DELA, GRSM, PUUM, NIWO, KONZ, MOAB, ABBY, TREE, SJER, STEI, TALL, SERC, RMNP, BART, JORN, SRER, OAES, CPER, ONAQ, JERC, SCBI, SOAP, STER, BLAN.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_humidity_lm_all_sites model. Information for the model is provided as follows: The tg_humidity_lm_all_sites model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only one covariate: relative humidity. This model was used to forecast water temperature and dissolved oxygen concentration at the\nseven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: DEJU, HEAL, CLBJ, GUAN, BONA, YELL, KONA, UKFS, TEAK, ORNL, HARV, DCFS, BARR, WOOD, NOGP, TOOL, DSNY, WREF, OSBS, UNDE, LENO, MLBS, LAJA, DELA, GRSM, PUUM, NIWO, KONZ, MOAB, ABBY, SRER, OAES, CPER, ONAQ, JERC, SCBI, SOAP, STER, BLAN, TREE, SJER, STEI, TALL, SERC, RMNP, BART, JORN.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-01-31",
     "updated": "2024-07-03 07:15:27",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -123,14 +123,6 @@
       "KONZ",
       "MOAB",
       "ABBY",
-      "TREE",
-      "SJER",
-      "STEI",
-      "TALL",
-      "SERC",
-      "RMNP",
-      "BART",
-      "JORN",
       "SRER",
       "OAES",
       "CPER",
@@ -139,7 +131,15 @@
       "SCBI",
       "SOAP",
       "STER",
-      "BLAN"
+      "BLAN",
+      "TREE",
+      "SJER",
+      "STEI",
+      "TALL",
+      "SERC",
+      "RMNP",
+      "BART",
+      "JORN"
     ],
     "table:columns": [
       {
@@ -191,11 +191,6 @@
         "name": "project_id",
         "type": "string",
         "description": "unique identifier for the forecast project"
-      },
-      {
-        "name": "variable",
-        "type": "string",
-        "description": "name of forecasted variable"
       }
     ]
   },
@@ -261,7 +256,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "DEJU, HEAL, CLBJ, GUAN, BONA, YELL, KONA, UKFS, TEAK, ORNL, HARV, DCFS, BARR, WOOD, NOGP, TOOL, DSNY, WREF, OSBS, UNDE, LENO, MLBS, LAJA, DELA, GRSM, PUUM, NIWO, KONZ, MOAB, ABBY, TREE, SJER, STEI, TALL, SERC, RMNP, BART, JORN, SRER, OAES, CPER, ONAQ, JERC, SCBI, SOAP, STER, BLAN"
+      "description": "DEJU, HEAL, CLBJ, GUAN, BONA, YELL, KONA, UKFS, TEAK, ORNL, HARV, DCFS, BARR, WOOD, NOGP, TOOL, DSNY, WREF, OSBS, UNDE, LENO, MLBS, LAJA, DELA, GRSM, PUUM, NIWO, KONZ, MOAB, ABBY, SRER, OAES, CPER, ONAQ, JERC, SCBI, SOAP, STER, BLAN, TREE, SJER, STEI, TALL, SERC, RMNP, BART, JORN"
     },
     "4": {
       "type": "application/x-parquet",
