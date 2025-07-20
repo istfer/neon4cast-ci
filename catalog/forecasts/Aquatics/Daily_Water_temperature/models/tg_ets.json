@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-89.4737, 46.2097],
       [-96.6038, 39.1051],
       [-78.1473, 38.8943],
@@ -38,16 +42,12 @@
       [-111.5081, 33.751],
       [-147.504, 65.1532],
       [-119.0274, 36.9559],
-      [-105.5442, 40.035],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307]
+      [-105.5442, 40.035]
     ]
   },
   "properties": {
     "title": "tg_ets",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: CRAM, KING, POSE, BARC, CUPE, REDB, MART, SUGG, OKSR, MCDI, PRIN, WLOU, HOPB, BIGC, LECO, MCRA, FLNT, WALK, BLDE, ARIK, MAYF, TOMB, LIRO, PRLA, BLWA, GUIL, SYCA, CARI, TECR, COMO, LEWI, BLUE, PRPO, TOOK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, TOOK, CRAM, KING, POSE, BARC, CUPE, REDB, MART, SUGG, OKSR, MCDI, PRIN, WLOU, HOPB, BIGC, LECO, MCRA, FLNT, WALK, BLDE, ARIK, MAYF, TOMB, LIRO, PRLA, BLWA, GUIL, SYCA, CARI, TECR, COMO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-07-19",
     "updated": "2024-08-23 08:32:49",
     "start_datetime": "2022-08-06T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "LEWI",
+      "BLUE",
+      "PRPO",
+      "TOOK",
       "CRAM",
       "KING",
       "POSE",
@@ -109,11 +113,7 @@
       "SYCA",
       "CARI",
       "TECR",
-      "COMO",
-      "LEWI",
-      "BLUE",
-      "PRPO",
-      "TOOK"
+      "COMO"
     ],
     "table:columns": [
       {
@@ -230,7 +230,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "CRAM, KING, POSE, BARC, CUPE, REDB, MART, SUGG, OKSR, MCDI, PRIN, WLOU, HOPB, BIGC, LECO, MCRA, FLNT, WALK, BLDE, ARIK, MAYF, TOMB, LIRO, PRLA, BLWA, GUIL, SYCA, CARI, TECR, COMO, LEWI, BLUE, PRPO, TOOK"
+      "description": "LEWI, BLUE, PRPO, TOOK, CRAM, KING, POSE, BARC, CUPE, REDB, MART, SUGG, OKSR, MCDI, PRIN, WLOU, HOPB, BIGC, LECO, MCRA, FLNT, WALK, BLDE, ARIK, MAYF, TOMB, LIRO, PRLA, BLWA, GUIL, SYCA, CARI, TECR, COMO"
     },
     "4": {
       "type": "application/x-parquet",
