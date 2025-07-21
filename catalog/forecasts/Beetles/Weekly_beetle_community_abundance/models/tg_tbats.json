@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-119.7323, 37.1088],
-      [-89.5857, 45.4937],
-      [-87.3933, 32.9505],
-      [-71.2874, 44.0639],
-      [-76.56, 38.8901],
-      [-106.8425, 32.5907],
-      [-89.5864, 45.5089],
-      [-105.546, 40.2759],
       [-83.5019, 35.689],
       [-122.3303, 45.7624],
       [-67.0769, 18.0213],
@@ -55,12 +47,20 @@
       [-104.7456, 40.8155],
       [-110.8355, 31.9107],
       [-112.4524, 40.1776],
-      [-84.4686, 31.1948]
+      [-84.4686, 31.1948],
+      [-119.7323, 37.1088],
+      [-89.5857, 45.4937],
+      [-87.3933, 32.9505],
+      [-71.2874, 44.0639],
+      [-76.56, 38.8901],
+      [-106.8425, 32.5907],
+      [-89.5864, 45.5089],
+      [-105.546, 40.2759]
     ]
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: SJER, TREE, TALL, BART, SERC, JORN, STEI, RMNP, GRSM, ABBY, LAJA, NIWO, LENO, MLBS, MOAB, KONZ, PUUM, DELA, DEJU, TOOL, DSNY, ORNL, OSBS, WOOD, UNDE, TEAK, HARV, HEAL, NOGP, KONA, GUAN, DCFS, CLBJ, UKFS, YELL, BARR, WREF, BONA, STER, SCBI, SOAP, BLAN, OAES, CPER, SRER, ONAQ, JERC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: GRSM, ABBY, LAJA, NIWO, LENO, MLBS, MOAB, KONZ, PUUM, DELA, DEJU, TOOL, DSNY, ORNL, OSBS, WOOD, UNDE, TEAK, HARV, HEAL, NOGP, KONA, GUAN, DCFS, CLBJ, UKFS, YELL, BARR, WREF, BONA, STER, SCBI, SOAP, BLAN, OAES, CPER, SRER, ONAQ, JERC, SJER, TREE, TALL, BART, SERC, JORN, STEI, RMNP.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-07-14",
     "updated": "2024-08-23 18:03:11",
     "start_datetime": "2021-05-17T00:00:00Z",
@@ -93,14 +93,6 @@
       "abundance",
       "Weekly",
       "P1W",
-      "SJER",
-      "TREE",
-      "TALL",
-      "BART",
-      "SERC",
-      "JORN",
-      "STEI",
-      "RMNP",
       "GRSM",
       "ABBY",
       "LAJA",
@@ -139,7 +131,15 @@
       "CPER",
       "SRER",
       "ONAQ",
-      "JERC"
+      "JERC",
+      "SJER",
+      "TREE",
+      "TALL",
+      "BART",
+      "SERC",
+      "JORN",
+      "STEI",
+      "RMNP"
     ],
     "table:columns": [
       {
@@ -256,7 +256,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SJER, TREE, TALL, BART, SERC, JORN, STEI, RMNP, GRSM, ABBY, LAJA, NIWO, LENO, MLBS, MOAB, KONZ, PUUM, DELA, DEJU, TOOL, DSNY, ORNL, OSBS, WOOD, UNDE, TEAK, HARV, HEAL, NOGP, KONA, GUAN, DCFS, CLBJ, UKFS, YELL, BARR, WREF, BONA, STER, SCBI, SOAP, BLAN, OAES, CPER, SRER, ONAQ, JERC"
+      "description": "GRSM, ABBY, LAJA, NIWO, LENO, MLBS, MOAB, KONZ, PUUM, DELA, DEJU, TOOL, DSNY, ORNL, OSBS, WOOD, UNDE, TEAK, HARV, HEAL, NOGP, KONA, GUAN, DCFS, CLBJ, UKFS, YELL, BARR, WREF, BONA, STER, SCBI, SOAP, BLAN, OAES, CPER, SRER, ONAQ, JERC, SJER, TREE, TALL, BART, SERC, JORN, STEI, RMNP"
     },
     "4": {
       "type": "application/x-parquet",
