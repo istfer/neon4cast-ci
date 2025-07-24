@@ -101,7 +101,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/BBTW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
@@ -116,16 +126,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/BBTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/AquaticEcosystemsOxygen.json"
     },
     {
@@ -136,7 +136,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -151,12 +156,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "parent",

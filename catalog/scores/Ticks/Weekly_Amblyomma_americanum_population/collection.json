@@ -11,12 +11,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/NJC_ETS_PF.json"
+      "href": "./models/BU_Dem.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TickBench.json"
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCLA_2022.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/NJC_ETS_PF.json"
     },
     {
       "rel": "item",
@@ -32,6 +42,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TickBench.json"
     },
     {
       "rel": "item",
@@ -61,32 +76,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/VTicks.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/BU_Dem.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCLA_2022.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
