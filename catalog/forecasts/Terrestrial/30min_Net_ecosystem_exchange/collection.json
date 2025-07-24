@@ -11,6 +11,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/VT_NEET.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/IU_Eco2021.json"
     },
     {
@@ -27,11 +32,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/hist30min.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VT_NEET.json"
     },
     {
       "rel": "item",
