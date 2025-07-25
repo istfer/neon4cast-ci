@@ -21,7 +21,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/VTicks.json"
     },
     {
       "rel": "item",
@@ -46,7 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/VTicks.json"
+      "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
@@ -56,12 +56,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/UCLA_2022.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/UCLA_2022.json"
     },
     {
       "rel": "item",
