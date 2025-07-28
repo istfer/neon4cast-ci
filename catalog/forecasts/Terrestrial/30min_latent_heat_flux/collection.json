@@ -11,7 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/IU_Eco2021.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -26,7 +26,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/IU_Eco2021.json"
     },
     {
       "rel": "item",
@@ -36,12 +36,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_SIPNET.json"
+      "href": "./models/UCB_XT.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/UCB_XT.json"
+      "href": "./models/BU_SIPNET.json"
     },
     {
       "rel": "parent",
