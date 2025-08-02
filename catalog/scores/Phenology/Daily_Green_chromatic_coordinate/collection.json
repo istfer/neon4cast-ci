@@ -96,11 +96,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
@@ -116,17 +111,12 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/DALEC_SIP.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Fourier.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NEFIpheno.json"
     },
     {
       "rel": "item",
@@ -146,12 +136,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/VT_Ph_GDD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
+      "href": "./models/Fourier.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/NEFIpheno.json"
     },
     {
       "rel": "parent",
