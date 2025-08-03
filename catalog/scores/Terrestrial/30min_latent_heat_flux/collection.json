@@ -11,7 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/VT_NEET.json"
+      "href": "./models/BU_SIPNET.json"
     },
     {
       "rel": "item",
@@ -21,7 +21,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_SIPNET.json"
+      "href": "./models/VT_NEET.json"
     },
     {
       "rel": "item",
