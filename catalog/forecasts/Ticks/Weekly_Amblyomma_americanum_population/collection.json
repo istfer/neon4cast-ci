@@ -16,11 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Ticks_288.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -46,22 +41,12 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/Ticks_288.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/VTicks.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/BU_Dem.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCLA_2022.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -87,6 +72,21 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BU_Dem.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCLA_2022.json"
     },
     {
       "rel": "item",
