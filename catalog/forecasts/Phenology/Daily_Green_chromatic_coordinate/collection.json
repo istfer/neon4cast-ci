@@ -51,6 +51,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/ChlorophyllCrusaders.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/PEG.json"
     },
     {
@@ -81,17 +86,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/DALEC_SIP.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Fourier.json"
     },
     {
       "rel": "item",
@@ -117,6 +112,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Fourier.json"
     },
     {
       "rel": "item",
