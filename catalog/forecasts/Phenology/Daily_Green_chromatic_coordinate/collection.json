@@ -11,11 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/PEG.json"
     },
     {
@@ -37,6 +32,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
@@ -91,16 +91,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Fourier.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NEFIpheno.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/PEG_RFR.json"
     },
     {
@@ -121,7 +111,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/NEFIpheno.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/VT_Ph_GDD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Fourier.json"
     },
     {
       "rel": "item",
