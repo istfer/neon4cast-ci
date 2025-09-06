@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-105.546, 40.2759],
-      [-87.3933, 32.9505],
-      [-106.8425, 32.5907],
-      [-71.2874, 44.0639],
-      [-76.56, 38.8901],
-      [-89.5857, 45.4937],
-      [-89.5864, 45.5089],
-      [-119.7323, 37.1088],
       [-99.1066, 47.1617],
       [-97.57, 33.4012],
       [-119.006, 37.0058],
@@ -55,12 +47,20 @@
       [-110.8355, 31.9107],
       [-99.0588, 35.4106],
       [-84.4686, 31.1948],
-      [-112.4524, 40.1776]
+      [-112.4524, 40.1776],
+      [-105.546, 40.2759],
+      [-87.3933, 32.9505],
+      [-106.8425, 32.5907],
+      [-71.2874, 44.0639],
+      [-76.56, 38.8901],
+      [-89.5857, 45.4937],
+      [-89.5864, 45.5089],
+      [-119.7323, 37.1088]
     ]
   },
   "properties": {
     "title": "climatology",
-    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: RMNP, TALL, JORN, BART, SERC, TREE, STEI, SJER, DCFS, CLBJ, TEAK, OSBS, UKFS, ORNL, UNDE, WOOD, DSNY, KONA, BARR, BONA, HARV, HEAL, NOGP, YELL, DEJU, GUAN, WREF, TOOL, LENO, NIWO, LAJA, PUUM, MLBS, GRSM, MOAB, DELA, ABBY, KONZ, SOAP, STER, BLAN, SCBI, CPER, SRER, OAES, JERC, ONAQ.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: DCFS, CLBJ, TEAK, OSBS, UKFS, ORNL, UNDE, WOOD, DSNY, KONA, BARR, BONA, HARV, HEAL, NOGP, YELL, DEJU, GUAN, WREF, TOOL, LENO, NIWO, LAJA, PUUM, MLBS, GRSM, MOAB, DELA, ABBY, KONZ, SOAP, STER, BLAN, SCBI, CPER, SRER, OAES, JERC, ONAQ, RMNP, TALL, JORN, BART, SERC, TREE, STEI, SJER.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-05-03",
     "updated": "2025-05-03 22:04:15",
     "start_datetime": "2021-01-01T00:00:00Z",
@@ -93,14 +93,6 @@
       "rcc_90",
       "Daily",
       "P1D",
-      "RMNP",
-      "TALL",
-      "JORN",
-      "BART",
-      "SERC",
-      "TREE",
-      "STEI",
-      "SJER",
       "DCFS",
       "CLBJ",
       "TEAK",
@@ -139,7 +131,15 @@
       "SRER",
       "OAES",
       "JERC",
-      "ONAQ"
+      "ONAQ",
+      "RMNP",
+      "TALL",
+      "JORN",
+      "BART",
+      "SERC",
+      "TREE",
+      "STEI",
+      "SJER"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "RMNP, TALL, JORN, BART, SERC, TREE, STEI, SJER, DCFS, CLBJ, TEAK, OSBS, UKFS, ORNL, UNDE, WOOD, DSNY, KONA, BARR, BONA, HARV, HEAL, NOGP, YELL, DEJU, GUAN, WREF, TOOL, LENO, NIWO, LAJA, PUUM, MLBS, GRSM, MOAB, DELA, ABBY, KONZ, SOAP, STER, BLAN, SCBI, CPER, SRER, OAES, JERC, ONAQ"
+      "description": "DCFS, CLBJ, TEAK, OSBS, UKFS, ORNL, UNDE, WOOD, DSNY, KONA, BARR, BONA, HARV, HEAL, NOGP, YELL, DEJU, GUAN, WREF, TOOL, LENO, NIWO, LAJA, PUUM, MLBS, GRSM, MOAB, DELA, ABBY, KONZ, SOAP, STER, BLAN, SCBI, CPER, SRER, OAES, JERC, ONAQ, RMNP, TALL, JORN, BART, SERC, TREE, STEI, SJER"
     },
     "4": {
       "type": "application/x-parquet",
