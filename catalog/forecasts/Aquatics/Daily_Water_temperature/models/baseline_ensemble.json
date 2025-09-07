@@ -22,6 +22,10 @@
       [-111.7979, 40.7839],
       [-78.1473, 38.8943],
       [-82.0177, 29.6878],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-83.5038, 35.6904],
       [-84.2793, 35.9574],
       [-102.4471, 39.7582],
@@ -38,16 +42,12 @@
       [-89.7048, 45.9983],
       [-66.7987, 18.1741],
       [-88.1589, 31.8534],
-      [-99.1139, 47.1591],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307]
+      [-99.1139, 47.1591]
     ]
   },
   "properties": {
     "title": "baseline_ensemble",
-    "description": "All forecasts for the Daily_Water_temperature variable for the baseline_ensemble model. Information for the model is provided as follows: The Baseline MME is a multi-model ensemble (MME) comprised of the two baseline models\n(day-of-year, persistence) submitted by Challenge organisers.\n                                    The model predicts this variable at the following sites: WLOU, MCDI, CUPE, OKSR, CRAM, HOPB, PRIN, KING, MART, BARC, REDB, POSE, SUGG, LECO, WALK, ARIK, MAYF, BLDE, FLNT, MCRA, BIGC, SYCA, TECR, COMO, BLWA, CARI, LIRO, GUIL, TOMB, PRLA, BLUE, LEWI, PRPO, TOOK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the baseline_ensemble model. Information for the model is provided as follows: The Baseline MME is a multi-model ensemble (MME) comprised of the two baseline models\n(day-of-year, persistence) submitted by Challenge organisers.\n                                    The model predicts this variable at the following sites: WLOU, MCDI, CUPE, OKSR, CRAM, HOPB, PRIN, KING, MART, BARC, REDB, POSE, SUGG, BLUE, LEWI, PRPO, TOOK, LECO, WALK, ARIK, MAYF, BLDE, FLNT, MCRA, BIGC, SYCA, TECR, COMO, BLWA, CARI, LIRO, GUIL, TOMB, PRLA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-07-03",
     "updated": "2024-08-22 14:02:17",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -93,6 +93,10 @@
       "REDB",
       "POSE",
       "SUGG",
+      "BLUE",
+      "LEWI",
+      "PRPO",
+      "TOOK",
       "LECO",
       "WALK",
       "ARIK",
@@ -109,11 +113,7 @@
       "LIRO",
       "GUIL",
       "TOMB",
-      "PRLA",
-      "BLUE",
-      "LEWI",
-      "PRPO",
-      "TOOK"
+      "PRLA"
     ],
     "table:columns": [
       {
@@ -230,7 +230,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "WLOU, MCDI, CUPE, OKSR, CRAM, HOPB, PRIN, KING, MART, BARC, REDB, POSE, SUGG, LECO, WALK, ARIK, MAYF, BLDE, FLNT, MCRA, BIGC, SYCA, TECR, COMO, BLWA, CARI, LIRO, GUIL, TOMB, PRLA, BLUE, LEWI, PRPO, TOOK"
+      "description": "WLOU, MCDI, CUPE, OKSR, CRAM, HOPB, PRIN, KING, MART, BARC, REDB, POSE, SUGG, BLUE, LEWI, PRPO, TOOK, LECO, WALK, ARIK, MAYF, BLDE, FLNT, MCRA, BIGC, SYCA, TECR, COMO, BLWA, CARI, LIRO, GUIL, TOMB, PRLA"
     },
     "4": {
       "type": "application/x-parquet",
