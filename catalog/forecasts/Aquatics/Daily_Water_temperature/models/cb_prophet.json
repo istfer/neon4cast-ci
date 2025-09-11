@@ -22,10 +22,6 @@
       [-82.0084, 29.676],
       [-105.9154, 39.8914],
       [-149.143, 68.6698],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
       [-87.4077, 32.9604],
       [-83.5038, 35.6904],
       [-84.4374, 31.1854],
@@ -42,12 +38,16 @@
       [-105.5442, 40.035],
       [-99.1139, 47.1591],
       [-88.1589, 31.8534],
-      [-119.0274, 36.9559]
+      [-119.0274, 36.9559],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442]
     ]
   },
   "properties": {
     "title": "cb_prophet",
-    "description": "All forecasts for the Daily_Water_temperature variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: HOPB, KING, POSE, MART, MCDI, SUGG, CUPE, PRIN, REDB, CRAM, BARC, WLOU, OKSR, LEWI, PRPO, TOOK, BLUE, MAYF, LECO, FLNT, MCRA, WALK, ARIK, BLDE, BIGC, SYCA, BLWA, CARI, GUIL, LIRO, COMO, PRLA, TOMB, TECR.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: HOPB, KING, POSE, MART, MCDI, SUGG, CUPE, PRIN, REDB, CRAM, BARC, WLOU, OKSR, MAYF, LECO, FLNT, MCRA, WALK, ARIK, BLDE, BIGC, SYCA, BLWA, CARI, GUIL, LIRO, COMO, PRLA, TOMB, TECR, LEWI, PRPO, TOOK, BLUE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-06",
     "updated": "2024-02-07 05:13:58",
     "start_datetime": "2021-12-18T00:00:00Z",
@@ -93,10 +93,6 @@
       "BARC",
       "WLOU",
       "OKSR",
-      "LEWI",
-      "PRPO",
-      "TOOK",
-      "BLUE",
       "MAYF",
       "LECO",
       "FLNT",
@@ -113,7 +109,11 @@
       "COMO",
       "PRLA",
       "TOMB",
-      "TECR"
+      "TECR",
+      "LEWI",
+      "PRPO",
+      "TOOK",
+      "BLUE"
     ],
     "table:columns": [
       {
@@ -230,7 +230,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "HOPB, KING, POSE, MART, MCDI, SUGG, CUPE, PRIN, REDB, CRAM, BARC, WLOU, OKSR, LEWI, PRPO, TOOK, BLUE, MAYF, LECO, FLNT, MCRA, WALK, ARIK, BLDE, BIGC, SYCA, BLWA, CARI, GUIL, LIRO, COMO, PRLA, TOMB, TECR"
+      "description": "HOPB, KING, POSE, MART, MCDI, SUGG, CUPE, PRIN, REDB, CRAM, BARC, WLOU, OKSR, MAYF, LECO, FLNT, MCRA, WALK, ARIK, BLDE, BIGC, SYCA, BLWA, CARI, GUIL, LIRO, COMO, PRLA, TOMB, TECR, LEWI, PRPO, TOOK, BLUE"
     },
     "4": {
       "type": "application/x-parquet",
